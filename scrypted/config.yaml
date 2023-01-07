@@ -13,6 +13,7 @@ environment:
   SCRYPTED_VOLUME: "/data/scrypted_data"
 backup_exclude:
   - /server
+usb: true,
 webui: "https://[HOST]:[PORT:10443]"
 stage: experimental
 advanced: true
